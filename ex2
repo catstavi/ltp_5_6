@@ -1,0 +1,5 @@
+puts "What's the best number you know?"
+print "> "
+user_number = gets.chomp
+puts "Well #{user_number} is a very nice number, to be sure."
+puts "But don't you think that #{user_number.to_i+1} is just a little bigger? Maybe even better."

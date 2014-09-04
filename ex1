@@ -1,0 +1,7 @@
+puts "Hi there! Please take a moment to answer a few questions."
+print "First name: "
+first_name = gets.chomp
+print "Last name: "
+last_name = gets.chomp
+fullname = first_name + " " + last_name
+puts "That will be all #{fullname}, thank you!"
